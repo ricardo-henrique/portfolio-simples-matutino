@@ -14,3 +14,43 @@ header, footer {
 main {
     padding: 2rem;
 }
+
+#contato {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contato h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contato label {
+    margin: 0.5rem 0 0.2rem;
+}
+
+#contato input,
+#contato textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contato button {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contato button:hover {
+    background-color: #555;
+}
